@@ -13,7 +13,16 @@
         [TestCase(7, Result = "VII")]
         [TestCase(8, Result = "VIII")]
         [TestCase(9, Result = "IX")]
-        public string ShouldConvertOne(int number)
+        [TestCase(10, Result = "X")]
+        [TestCase(11, Result = "XI")]
+        [TestCase(14, Result = "XIV")]
+        [TestCase(15, Result = "XV")]
+        [TestCase(16, Result = "XVI")]
+        [TestCase(19, Result = "XIX")]
+        [TestCase(24, Result = "XXIV")]
+        [TestCase(34, Result = "XXXIV")]
+        [TestCase(39, Result = "XXXIX")]
+        public string ShouldConvertNumbers(int number)
         {
             var converter = new RomanNumeralsConverter();
 

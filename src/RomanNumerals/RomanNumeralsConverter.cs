@@ -1,11 +1,11 @@
-﻿namespace RomanNumerals.UnitTests
+﻿namespace RomanNumerals
 {
     using System.Text;
 
     public class RomanNumeralsConverter
     {
-        private static readonly int[] Values = { 9, 5, 4, 1 };
-        private static readonly string[] Symbols = { "IX", "V", "IV", "I" };
+        private static readonly int[] Values = { 10, 9, 5, 4, 1 };
+        private static readonly string[] Symbols = { "X", "IX", "V", "IV", "I" };
 
         public string Convert(int number)
         {
