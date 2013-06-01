@@ -4,8 +4,8 @@
 
     public class RomanNumeralsConverter
     {
-        private static readonly int[] Values = { 10, 9, 5, 4, 1 };
-        private static readonly string[] Symbols = { "X", "IX", "V", "IV", "I" };
+        private static readonly int[] Values = { 1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1 };
+        private static readonly string[] Symbols = { "M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I" };
 
         public string Convert(int number)
         {
